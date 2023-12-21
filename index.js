@@ -96,8 +96,8 @@ var typing=new Typed(".text", {
 let project_NykaaClone = document.getElementById("project_Nykaa-Clone");
 let project_MyntraClone = document.getElementById("project_Myntra-Clone");
 
-let project_NykaaClone_Arr = [""];
-let project_MyntraClone_Arr = [""];
+let project_NykaaClone_Arr = ["./images/projects/Nykaa_Project/Nykaa_Home"];
+let project_MyntraClone_Arr = ["./images/projects/Myntra_Project/Myntra_Home"];
 
 project_NykaaClone.addEventListener("mouseover",()=>{ 
     let count=0;
