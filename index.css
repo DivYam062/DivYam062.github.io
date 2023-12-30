@@ -47,7 +47,7 @@ nav a {
 }
 
 nav a#logo {
-  color: rgb(0, 255, 242);
+  color: lightblue;
   font-weight: 700;
   font-size: 28px;
 }
@@ -57,8 +57,8 @@ nav ul a {
 }
 
 nav ul a:hover {
-  border-bottom: 2px solid rgb(0, 255, 255);
-  color: rgb(0, 255, 242);
+  border-bottom: 2px solid lightblue;
+  color: lightblue;
 }
 
 section#home {
@@ -80,7 +80,7 @@ nav ul.active {
 }
 
 .active {
-  color: rgb(0, 255, 242);
+  color: lightblue;
 }
 
 #resume-button-1 {
@@ -95,9 +95,9 @@ nav ul.active {
 }
 
 #resume-link-1 {
-  border: 1px solid rgb(0, 255, 242);
+  border: 1px solid lightblue;
   padding: 8px 12px;
-  color: rgb(0, 255, 242);
+  color: lightblue;
   border-radius: 15px;
 }
 
@@ -113,20 +113,21 @@ nav ul.active {
 }
 
 #resume-link-2 {
-  border: 1px solid rgb(0, 255, 242);
+  border: 2px solid lightblue;
   padding: 12px 15px;
-  color: rgb(0, 255, 242);
+  color: lightblue;
   font-size: large;
   border-radius: 20px;
+  background-color: black;
 }
 
 #resume-link-1:hover {
-  background-color: rgb(0, 255, 242);
+  background-color: lightblue;
   color: black;
 }
 
 #resume-link-2:hover {
-  background-color: rgb(0, 255, 242);
+  background-color: lightblue;
   color: black;
 }
 
@@ -152,7 +153,7 @@ nav ul.active {
 #myname {
   margin: 20px 0px 30px 4px;
   font-weight: 400;
-  color: rgb(0, 255, 242);
+  color: lightblue;
   font-size: 20px;
 }
 
@@ -165,7 +166,7 @@ nav ul.active {
 #title {
   margin: 0px 0px 10px 4px;
   font-size: clamp(20px, 5vw, 30px);
-  color: rgb(0, 255, 242);
+  color: lightblue;
 }
 #title {
   overflow: hidden; /* Ensures the content is not shown outside its bounds */
@@ -244,11 +245,11 @@ nav ul.active {
 }
 
 #aboutme-title span {
-  color: rgb(0, 255, 242);
+  color: lightblue;
 }
 
 #img {
-  background-color: rgb(0, 255, 242);
+  background-color: lightblue;
 }
 
 #user-detail-intro {
@@ -528,7 +529,7 @@ label {
 }
 
 input[type=submit] {
-  background-color: rgb(0, 255, 242);
+  background-color: lightblue;
   color: black;
   padding: 12px 20px;
   border: none;
@@ -538,7 +539,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: rgb(0, 255, 242);
+  background-color: lightblue;
 }
 
 .container {
@@ -574,7 +575,7 @@ input[type=submit]:hover {
 }
 
 #stranger-head {
-  color: rgb(0, 255, 242);
+  color: lightblue;
   font-size: 22px;
   padding-top: 10px;
   padding-bottom: 10px;
