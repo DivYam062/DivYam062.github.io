@@ -153,7 +153,7 @@ nav ul.active {
 #myname {
   margin: 20px 0px 30px 4px;
   font-weight: 400;
-  color: lightblue;
+  color: rgb(4, 103, 116);
   font-size: 20px;
 }
 
@@ -166,7 +166,7 @@ nav ul.active {
 #title {
   margin: 0px 0px 10px 4px;
   font-size: clamp(20px, 5vw, 30px);
-  color: lightblue;
+  color: rgb(4, 103, 116);
 }
 #title {
   overflow: hidden; /* Ensures the content is not shown outside its bounds */
@@ -245,7 +245,7 @@ nav ul.active {
 }
 
 #aboutme-title span {
-  color: lightblue;
+  color: rgb(4, 103, 116);
 }
 
 #img {
@@ -437,7 +437,7 @@ nav ul.active {
 
 .project-tech-stack {
   font-size: 20px;
-  color: powderblue;
+  color: rgb(4, 103, 116);
   font-weight: bold;
 
 }
@@ -529,7 +529,7 @@ label {
 }
 
 input[type=submit] {
-  background-color: lightblue;
+  background-color: rgb(4, 103, 116);
   color: black;
   padding: 12px 20px;
   border: none;
@@ -575,7 +575,7 @@ input[type=submit]:hover {
 }
 
 #stranger-head {
-  color: lightblue;
+  color: rgb(4, 103, 116);
   font-size: 22px;
   padding-top: 10px;
   padding-bottom: 10px;
