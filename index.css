@@ -569,7 +569,7 @@ input[type=submit]:hover {
 
 #contact-email,
 #contact-phone {
-  color: #cccc;
+  color: white;
   font-size: 20px;
   padding: 20px;
 }
