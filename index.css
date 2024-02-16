@@ -552,7 +552,7 @@ input[type=submit]:hover {
   float: left;
   width: 25%;
   margin-top: 6px;
-  
+
 }
 
 .col-75 {
@@ -574,6 +574,7 @@ input[type=submit]:hover {
   font-size: 20px;
   padding: 20px;
 }
+
 
 #stranger-head {
   color: rgb(4, 103, 116);
