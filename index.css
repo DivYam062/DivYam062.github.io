@@ -25,7 +25,7 @@ header {
   position: fixed;
   width: 100%;
   padding: 3rem 5rem;
-  background-color: #1b1b1b;
+  background-color: black;
   z-index: 200000;
 }
 
@@ -119,6 +119,7 @@ nav ul.active {
   font-size: large;
   border-radius: 20px;
   background-color: black;
+  text-decoration: none;
 }
 
 #resume-link-1:hover {
@@ -485,6 +486,10 @@ nav ul.active {
   cursor: pointer;
 }
 
+#contact{
+  text-align: center;
+}
+
 #contact-name {
   padding-top: 100px;
   width: 100%;
@@ -763,6 +768,7 @@ input[type=submit]:hover {
   .project-card {
       flex-direction: column;
       height: auto;
+      padding: 20px 0;
   }
 
   .project-image-div {
