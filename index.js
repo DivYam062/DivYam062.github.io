@@ -29,7 +29,6 @@ function paddingFunction() {
 document.querySelector("form").addEventListener("submit", saveFile );
 
 
-
 function saveFile(e) {
 
   e.preventDefault()
