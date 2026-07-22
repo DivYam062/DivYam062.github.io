@@ -14,12 +14,12 @@ navLinks.forEach((navLinks) => {
 });
 
 
-function openResume() {
-  window.open(
-    "https://drive.google.com/file/d/1XnBjDp10VnyR0DqHvD6q_pDsw3XGLGm8/view?usp=sharing",
-    '_blank'
-  );
-}
+// function openResume() {
+//   window.open(
+//     "https://drive.google.com/file/d/1XnBjDp10VnyR0DqHvD6q_pDsw3XGLGm8/view?usp=sharing",
+//     '_blank'
+//   );
+// }
 
 function paddingFunction() {
   let x = doccument.getElementById("home")
