@@ -20,11 +20,11 @@ export function Hero() {
     >
       <div
         aria-hidden
-        className="pointer-events-none absolute left-1/2 top-[-10%] h-144 w-xl -translate-x-1/2 rounded-full bg-accent-2/20 blur-[120px]"
+        className="pointer-events-none absolute left-1/2 -top-1/10 h-144 w-xl -translate-x-1/2 rounded-full bg-accent-2/20 blur-[120px]"
       />
       <div
         aria-hidden
-        className="pointer-events-none absolute bottom-[-20%] right-[-10%] h-112 w-md rounded-full bg-accent/15 blur-[120px]"
+        className="pointer-events-none absolute -bottom-1/5 -right-1/10 h-112 w-md rounded-full bg-accent/15 blur-[120px]"
       />
 
       <div className="mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-14 px-6 lg:grid-cols-[1.1fr_0.9fr] lg:gap-10 lg:px-8">
@@ -73,7 +73,7 @@ export function Hero() {
           >
             <a
               href="#projects"
-              className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-ink transition-transform hover:scale-[1.03]"
+              className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-ink transition-transform hover:scale-103"
             >
               View my work
             </a>
@@ -122,12 +122,12 @@ export function Hero() {
           transition={{ duration: 0.7, ease: 'easeOut' }}
           className="relative mx-auto w-full max-w-sm"
         >
-          <div className="absolute inset-0 -z-10 rounded-4xl bg-gradient-to-br from-accent/30 to-accent-2/30 blur-2xl" />
+          <div className="absolute inset-0 -z-10 rounded-4xl bg-linear-to-br from-accent/30 to-accent-2/30 blur-2xl" />
           <div className="overflow-hidden rounded-4xl border border-white/10 bg-white/5 p-2 shadow-2xl shadow-black/40">
             <img
               src={profile.avatarFull}
               alt={profile.name}
-              className="aspect-[4/5] w-full rounded-3xl object-cover"
+              className="aspect-4/5 w-full rounded-3xl object-cover"
               loading="eager"
             />
           </div>

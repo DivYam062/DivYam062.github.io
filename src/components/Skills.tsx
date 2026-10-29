@@ -19,7 +19,7 @@ export function Skills() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-60px' }}
             transition={{ duration: 0.5, delay: index * 0.06, ease: 'easeOut' }}
-            className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 transition-colors hover:border-accent/30"
+            className="rounded-2xl border border-white/10 bg-white/3 p-6 transition-colors hover:border-accent/30"
           >
             <h3 className="font-display text-sm font-semibold uppercase tracking-wide text-accent">
               {group.category}

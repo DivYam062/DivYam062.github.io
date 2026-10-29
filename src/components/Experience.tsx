@@ -12,7 +12,7 @@ export function Experience() {
       />
 
       <div className="relative mt-14">
-        <div className="absolute left-[7px] top-2 bottom-2 w-px bg-white/10 sm:left-[9px]" aria-hidden />
+        <div className="absolute left-1.75 top-2 bottom-2 w-px bg-white/10 sm:left-2.25" aria-hidden />
 
         <ol className="space-y-12">
           {experiences.map((exp, index) => (

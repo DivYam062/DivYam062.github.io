@@ -10,9 +10,9 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-60px' }}
       transition={{ duration: 0.5, delay: index * 0.1, ease: 'easeOut' }}
-      className="group flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] transition-colors hover:border-accent/30"
+      className="group flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/3 transition-colors hover:border-accent/30"
     >
-      <div className="relative aspect-video overflow-hidden border-b border-white/10 bg-gradient-to-br from-surface to-ink">
+      <div className="relative aspect-video overflow-hidden border-b border-white/10 bg-linear-to-br from-surface to-ink">
         {project.image ? (
           <img
             src={project.image}

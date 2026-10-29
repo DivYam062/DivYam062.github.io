@@ -10,7 +10,7 @@ export function Contact() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: '-80px' }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
-        className="relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] px-8 py-16 text-center sm:px-16"
+        className="relative overflow-hidden rounded-3xl border border-white/10 bg-white/3 px-8 py-16 text-center sm:px-16"
       >
         <div
           aria-hidden
@@ -30,7 +30,7 @@ export function Contact() {
         <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
           <a
             href={profile.socials.email}
-            className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-ink transition-transform hover:scale-[1.03]"
+            className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-ink transition-transform hover:scale-103"
           >
             <FiMail size={18} /> {profile.email}
           </a>
