@@ -32,7 +32,7 @@ export const experiences: Experience[] = [
     duration: 'Aug 2026 — Present',
     location: 'Bangalore, Karnataka (Remote)',
     highlights: [
-      'Leading the frontend development team for the Sila Dashboard, overseeing feature development, task allocation and timely delivery.',
+      'Leading the frontend development team for Sila, a procurement dashboard, overseeing feature development, task allocation and timely delivery.',
       'Developing scalable, responsive web applications using React.js and TypeScript, following clean and maintainable coding practices.',
       'Implementing efficient global state management using Zustand and designing reusable components for better application scalability.',
       'Reviewing code, maintaining coding standards and providing technical guidance and mentorship to team members.',
