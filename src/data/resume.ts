@@ -115,7 +115,8 @@ export const projects: Project[] = [
       'Configurable dashboards and inventory analytics for inventory, catalog, configuration, users and roles.',
     ],
     githubUrl: 'https://github.com/DivYam062/inventory-management-system',
-    liveUrl: 'https://inventory-management-system-blush-gamma.vercel.app/login',
+    liveUrl: 'https://inventory-management-system-blush-gamma.vercel.app',
+    image: '/Inventory_Management_System.gif',
   },
   {
     title: 'Green Paradise',
