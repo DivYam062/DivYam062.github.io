@@ -127,7 +127,7 @@ export const projects: Project[] = [
       'Clean, accessible UI design with an intuitive navigation structure.',
     ],
     githubUrl: 'https://github.com/DivYam062/eCommerceGreenParadise',
-    liveUrl: 'https://calm-malasada-c0860b.netlify.app',
+    liveUrl: 'https://656cbd8b78668a2ac47fd273--jolly-kitten-c781a7.netlify.app/index.html',
     image: '/Green_Paradise.gif',
   },
 ]
