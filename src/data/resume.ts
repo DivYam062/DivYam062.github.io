@@ -12,7 +12,7 @@ export const profile = {
   socials: {
     github: 'https://github.com/DivYam062',
     linkedin: 'https://www.linkedin.com/in/divyam-rauthan-593030217/',
-    email: 'divyamrauthan002@gmail.com',
+    email: 'mailto:divyamrauthan002@gmail.com',
   },
 }
 
