@@ -122,12 +122,12 @@ export function Hero() {
           transition={{ duration: 0.7, ease: 'easeOut' }}
           className="relative mx-auto w-full max-w-sm"
         >
-          <div className="absolute inset-0 -z-10 rounded-[2rem] bg-gradient-to-br from-accent/30 to-accent-2/30 blur-2xl" />
-          <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 p-2 shadow-2xl shadow-black/40">
+          <div className="absolute inset-0 -z-10 rounded-4xl bg-gradient-to-br from-accent/30 to-accent-2/30 blur-2xl" />
+          <div className="overflow-hidden rounded-4xl border border-white/10 bg-white/5 p-2 shadow-2xl shadow-black/40">
             <img
               src={profile.avatarFull}
               alt={profile.name}
-              className="aspect-[4/5] w-full rounded-[1.5rem] object-cover"
+              className="aspect-[4/5] w-full rounded-3xl object-cover"
               loading="eager"
             />
           </div>
