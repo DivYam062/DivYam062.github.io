@@ -1,5 +1,6 @@
 import { motion } from 'motion/react'
-import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
+import { FiGithub, FiLinkedin, FiMail, FiPhone } from 'react-icons/fi'
+import { FaWhatsapp } from 'react-icons/fa'
 import { profile } from '../data/resume'
 
 export function Contact() {
@@ -34,6 +35,12 @@ export function Contact() {
           >
             <FiMail size={18} /> {profile.email}
           </a>
+          <a
+            href={profile.socials.phone}
+            className="inline-flex items-center gap-2 rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-white transition-colors hover:border-accent/60 hover:text-accent"
+          >
+            <FiPhone size={18} /> {profile.phone}
+          </a>
         </div>
 
         <div className="mt-8 flex items-center justify-center gap-6">
@@ -54,6 +61,15 @@ export function Contact() {
             className="text-slate-400 transition-colors hover:text-white"
           >
             <FiLinkedin size={22} />
+          </a>
+          <a
+            href={profile.socials.whatsapp}
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Chat on WhatsApp"
+            className="text-slate-400 transition-colors hover:text-white"
+          >
+            <FaWhatsapp size={22} />
           </a>
         </div>
       </motion.div>

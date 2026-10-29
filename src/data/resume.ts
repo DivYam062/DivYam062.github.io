@@ -13,6 +13,8 @@ export const profile = {
     github: 'https://github.com/DivYam062',
     linkedin: 'https://www.linkedin.com/in/divyam-rauthan-593030217/',
     email: 'mailto:divyamrauthan002@gmail.com',
+    phone: 'tel:+919368866508',
+    whatsapp: 'https://wa.me/919368866508',
   },
 }
 
