@@ -114,7 +114,7 @@ export const projects: Project[] = [
       'Stock tracking, inventory adjustments and transaction history with an append-only audit logging system.',
       'Configurable dashboards and inventory analytics for inventory, catalog, configuration, users and roles.',
     ],
-    githubUrl: 'https://github.com/DivYam062',
+    githubUrl: 'https://github.com/DivYam062/inventory-management-system',
   },
   {
     title: 'Green Paradise',
